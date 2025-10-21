@@ -58,7 +58,7 @@ sentiment-analyzer/
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/scorpions1340/Yandex_TEST
 cd sentiment-analyzer
 ```
 
@@ -414,5 +414,6 @@ mypy app/
 MIT License
 
 ## Поддержка
+
 
 При возникновении проблем или вопросов, пожалуйста, создайте issue в репозитории проекта.
