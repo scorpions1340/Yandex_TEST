@@ -1,0 +1,18 @@
+# Модель для анализа тональности
+MODEL_NAME=nlptown/bert-base-multilingual-uncased-sentiment
+
+# Настройки сервера
+HOST=0.0.0.0
+PORT=8000
+DEBUG=True
+
+# Максимальная длина текста для анализа
+MAX_TEXT_LENGTH=512
+
+# Настройки безопасности
+SECRET_KEY=your-super-secret-key-change-this-in-production-12345
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Настройки базы данных
+DATABASE_URL=sqlite:///./sentiment_analyzer.db
